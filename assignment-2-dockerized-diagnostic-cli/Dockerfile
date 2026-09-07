@@ -1,9 +1,9 @@
 FROM alpine:3.22
 
-RUN apk add --no-cache \
-    bash \
-    iputils \ 
-    iproute2 \ 
+RUN apk add --no-cache\
+bash\
+    iputils\ 
+    iproute2\ 
     procps 
 
 WORKDIR /app

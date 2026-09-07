@@ -1,0 +1,12 @@
+.git
+.gitignore
+logs
+*.log
+*.tmp
+*.pem
+.env
+.env.*
+README.md
+test.sh
+grade.sh
+**pycache**
